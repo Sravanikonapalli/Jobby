@@ -1,0 +1,20 @@
+.nf-img {
+  width: 400px;
+  height: 400px;
+}
+.nf-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nf-head {
+  color: white;
+  font-size: 38px;
+  font-family: 'Roboto';
+}
+.nf-para {
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+}

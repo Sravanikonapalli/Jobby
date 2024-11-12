@@ -1,0 +1,147 @@
+.job-details-con {
+  background-color: #000000;
+  flex-grow: 1;
+  padding: 40px;
+}
+.job-item-con {
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+.img-title-con {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.title-rating {
+  margin-top: 0;
+}
+.com-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.heading {
+  color: #ffffff;
+  margin: 10px;
+}
+.star-rating-con {
+  display: flex;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rating-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.loc-pack-con {
+  display: flex;
+  justify-content: space-between;
+}
+.loc-job-type-con {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.loc-icon-loc-con {
+  display: flex;
+}
+.loc-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.link-item {
+  text-decoration: none;
+}
+.desc-visit-link {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-link {
+  color: #6366f1;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.skills-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 30px;
+}
+
+.job-details-fail-view {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn-fail {
+  display: flex;
+  justify-content: center;
+}
+.fail-retry-btn {
+  color: #ffffff;
+  background-color: #6366f1;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 130px;
+  cursor: pointer;
+}
+.ul-con {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0;
+}
+.li-con {
+  display: flex;
+  width: 30%;
+  margin-bottom: 50px;
+}
+.life-at-company-con {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+.life-at-com-head-para {
+  width: 70%;
+}
+.similar-jobs-ul-cn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+@media screen and (max-width: 767px) {
+  .similar-jobs-ul-cn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .life-at-company-con {
+    flex-direction: column;
+  }
+  .life-at-com-head-para {
+    width: 100%;
+  }
+}

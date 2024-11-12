@@ -1,0 +1,156 @@
+.all-jobs-con {
+  background-color: #000000;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+h1 {
+  color: #ffffff;
+}
+.side-bar-con {
+  width: 25%;
+}
+.profile-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 100%;
+  border-radius: 25px;
+  height: 35vh;
+  padding: 25px;
+}
+.profile-icon {
+  color: blue;
+  font-size: 50px;
+}
+.pro-name {
+  color: #505068;
+  font-family: 'Roboto';
+}
+.desc {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.hr-line {
+  border: 2px solid grey;
+  margin: 15px;
+  width: 100%;
+}
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.check-box-con {
+  list-style: none;
+}
+.li-con {
+  margin-bottom: 10px;
+}
+.input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.label {
+  color: #ffffff;
+  font-size: 20px;
+}
+.radio {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.loader-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.fail-btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+}
+.fail-img {
+  width: 90%;
+  height: 350px;
+}
+.fail-btn {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.job-con {
+  width: 72%;
+  height: 100%;
+}
+.jobs-fil-btn-con {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+.search-input {
+  background-color: transparent;
+  border: 2px solid grey;
+  border-right: none;
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  border: 10px;
+  padding: 20px;
+  color: #ffffff;
+}
+.search-btn {
+  height: 40px;
+  border-radius: 10px;
+  width: 40px;
+  background-color: #202020;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.no-jobs-con {
+  color: #ffffff;
+  text-align: center;
+}
+.no-jobs-img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .all-jobs-con {
+    flex-direction: column;
+  }
+  .side-bar-con {
+    width: 100%;
+  }
+  .search-input {
+    width: 80%;
+  }
+  .job-con {
+    width: 100%;
+  }
+  .ul-job-con {
+    width: 100%;
+    padding: 0;
+  }
+  .fail-img {
+    width: 90%;
+    height: 90%;
+  }
+}

@@ -1,0 +1,89 @@
+.link-item {
+  text-decoration: none;
+}
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  margin: 10px;
+  border-radius: 17px;
+  padding: 20px;
+}
+.logo-title-loc-con {
+  display: flex;
+  flex-direction: column;
+}
+.logo-title-con {
+  display: flex;
+  align-items: center;
+}
+.com-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.title-rating-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-head {
+  color: #ffffff;
+}
+.rat-con {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+.rating-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.rating-hed {
+  color: #ffffff;
+}
+.loc-pack-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loc-empl-con {
+  display: flex;
+}
+.loaction-con {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 6px;
+}
+.brief-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.package-heading {
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.employee-con {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.line {
+  width: 100%;
+  color: #7e858e;
+}
+.desc-text {
+  color: #ffffff;
+  font-size: 15px;
+}

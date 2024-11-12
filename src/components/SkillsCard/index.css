@@ -1,0 +1,13 @@
+.skill-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-img-name{
+  display: flex;
+  margin-right: 25px;
+}
+.name{
+  padding-left: 10px;
+}
